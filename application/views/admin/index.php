@@ -10,7 +10,7 @@
     <!-- Content Row -->
     <div class="alert alert-success">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        Selamat datang <span class="text-uppercase"><b><?= $this->session->username; ?>!</b></span> Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah.
+        Selamat datang <span class="text-uppercase"><b><?= $this->session->name; ?>!</b></span> Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah.
     </div>
     <div class="row">
 		
